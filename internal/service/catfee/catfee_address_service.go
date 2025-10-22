@@ -48,7 +48,7 @@ func CustodyAddressAdd(_lang string, cache cache.Cache, db *gorm.DB, bot *tgbota
 		inlineKeyboard := tgbotapi.NewInlineKeyboardMarkup(
 			tgbotapi.NewInlineKeyboardRow(
 				//tgbotapi.NewInlineKeyboardButtonData("解绑地址", "free_monitor_address"),
-				tgbotapi.NewInlineKeyboardButtonData("🔙️"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
+				tgbotapi.NewInlineKeyboardButtonData("🔢"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
 			),
 		)
 		msg.ReplyMarkup = inlineKeyboard
@@ -64,7 +64,7 @@ func CustodyAddressAdd(_lang string, cache cache.Cache, db *gorm.DB, bot *tgbota
 		inlineKeyboard := tgbotapi.NewInlineKeyboardMarkup(
 			tgbotapi.NewInlineKeyboardRow(
 				//tgbotapi.NewInlineKeyboardButtonData("解绑地址", "free_monitor_address"),
-				tgbotapi.NewInlineKeyboardButtonData("🔙️"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
+				tgbotapi.NewInlineKeyboardButtonData("🔢"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
 			),
 		)
 		msg.ReplyMarkup = inlineKeyboard
@@ -88,7 +88,7 @@ func CustodyAddressAdd(_lang string, cache cache.Cache, db *gorm.DB, bot *tgbota
 
 		tgbotapi.NewInlineKeyboardRow(
 			//tgbotapi.NewInlineKeyboardButtonData("解绑地址", "free_monitor_address"),
-			tgbotapi.NewInlineKeyboardButtonData("🔙️"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
+			tgbotapi.NewInlineKeyboardButtonData("🔢"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
 		),
 	)
 	msg.ReplyMarkup = inlineKeyboard
@@ -136,7 +136,7 @@ func CustodyAddressRemove(_lang string, cache cache.Cache, db *gorm.DB, bot *tgb
 	inlineKeyboard := tgbotapi.NewInlineKeyboardMarkup(
 
 		tgbotapi.NewInlineKeyboardRow(
-			tgbotapi.NewInlineKeyboardButtonData("🔙️"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
+			tgbotapi.NewInlineKeyboardButtonData("🔢"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
 		),
 	)
 	msg.ReplyMarkup = inlineKeyboard
@@ -169,7 +169,7 @@ func CustodyAddressDisable(_lang string, cache cache.Cache, db *gorm.DB, bot *tg
 	inlineKeyboard := tgbotapi.NewInlineKeyboardMarkup(
 
 		tgbotapi.NewInlineKeyboardRow(
-			tgbotapi.NewInlineKeyboardButtonData("🔙️"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
+			tgbotapi.NewInlineKeyboardButtonData("🔢"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
 		),
 	)
 	msg.ReplyMarkup = inlineKeyboard
@@ -202,7 +202,7 @@ func CustodyAddressEnable(_lang string, cache cache.Cache, db *gorm.DB, bot *tgb
 	inlineKeyboard := tgbotapi.NewInlineKeyboardMarkup(
 
 		tgbotapi.NewInlineKeyboardRow(
-			tgbotapi.NewInlineKeyboardButtonData("🔙️"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
+			tgbotapi.NewInlineKeyboardButtonData("🔢"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
 		),
 	)
 	msg.ReplyMarkup = inlineKeyboard
@@ -255,7 +255,7 @@ func CatfeeAddressPrevePage(_lang string, callbackQuery *tgbotapi.CallbackQuery,
 			),
 			tgbotapi.NewInlineKeyboardRow(
 				//tgbotapi.NewInlineKeyboardButtonData("解绑地址", "free_monitor_address"),
-				tgbotapi.NewInlineKeyboardButtonData("🔙️"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
+				tgbotapi.NewInlineKeyboardButtonData("🔢"+global.Translations[_lang]["smart_transaction_address_list"], "click_bundle_package_address_stats_ST"),
 			),
 		)
 		msg.ReplyMarkup = inlineKeyboard
