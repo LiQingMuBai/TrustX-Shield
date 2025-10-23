@@ -193,7 +193,7 @@
   "catfee_custody_address_list_head": "已购总数 {total_times}笔 已用 {used_times}笔  剩余 {rest_times}笔",
   "catfee_custody_address_energy": "能量",
   "catfee_custody_address_count": "\uD83D\uDD0B托管地址【{custody_address_count}】\n➖➖➖➖➖➖➖➖➖➖",
-  "catfee_custody_address_energy_rule": "\n\uD83D\uDD39【转有U地址】 消耗  65K能量  扣1笔\n\uD83D\uDD39【转无U地址】 消耗131K能量  扣2笔",
+  "catfee_custody_address_energy_rule": "\n\uD83D\uDD39【转有U地址】 消耗  65K能量  扣1笔\n\uD83D\uDD39【转无U地址】 消耗131K能量  扣2笔\n✅时候表示开启，显示口时候表示关闭",
   "catfee_energy_address_limit_tips": "⚠\uFE0F 您已添加 5 个地址，如需新增，请先删除旧地址。\uD83D\uDEAB",
   "catfee_energy_address_buy_error": "❌抱歉，您的托管笔数已不足，请重新回主页购买托管套餐"
 }
