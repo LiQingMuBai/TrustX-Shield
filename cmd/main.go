@@ -429,7 +429,7 @@ func main() {
 						user.Associates = strconv.FormatInt(update.Message.Chat.ID, 10)
 						user.Username = update.Message.Chat.UserName
 						user.CreatedAt = time.Now()
-
+						user.Lang = "zh"
 						user.BotName = botName
 						if len(parentUID) > 0 {
 							user.ParentUserID = parentUID
