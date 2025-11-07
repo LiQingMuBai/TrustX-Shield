@@ -195,6 +195,24 @@
   "catfee_custody_address_count": "\uD83D\uDD0B托管地址【{custody_address_count}】\n➖➖➖➖➖➖➖➖➖➖",
   "catfee_custody_address_energy_rule": "\n\uD83D\uDD39【转有U地址】 消耗  65K能量  扣1笔\n\uD83D\uDD39【转无U地址】 消耗131K能量  扣2笔\n✅时候表示开启，显示口时候表示关闭",
   "catfee_energy_address_limit_tips": "⚠\uFE0F 您已添加 5 个地址，如需新增，请先删除旧地址。\uD83D\uDEAB",
-  "catfee_energy_address_buy_error": "❌抱歉，您的托管笔数已不足，请重新回主页购买托管套餐"
+  "catfee_energy_address_buy_error": "❌抱歉，您的托管笔数已不足，请重新回主页购买托管套餐",
+
+
+
+  "ushield_additional_services_desc": "\uD83D\uDED2扩展服务\n➖➖➖➖➖➖➖➖➖➖\n\uD83C\uDDED\uD83C\uDDF0香港鸭聊卡\n\uD83D\uDD25香港鸭聊卡有效期1年，可充值，18G一次性流量卡，附带一个香港号码，可免费收短信。\n\n\uD83D\uDCB3匿名信用卡\n\uD83D\uDD25适用各种跨境场景，轻松付全球！支持AWS、tiktok、Facebook、Alipay 、Google、paypal、推特、星链、广告投放、域名服务器、 购物、注册、订阅等，覆盖多种消费场景，支持多币种交易、开卡即用、实时到账、极速消费。\n\n✈能量理财\n\uD83D\uDD25Telegram 在 TON 区块链上发布了有限的虚拟电话号码作为NFT收藏品。 Telegram 用户可以使用这些号码进行注册，无需 SIM 卡，并直接在 Fragment 上接收注册、或登录验证码。\n\n\uD83D\uDEA2社交账号\n\uD83D\uDD25支持Linkedin、Facebook 、Google账号以及投流服务，帮助客户跨境贸易\n\n\uD83D\uDEA2海外服务器\n\uD83D\uDD25支持购买匿名服务器",
+  "ushield_additional_services_menu": "扩展服务",
+  "ushield_additional_services_sim": "鸭聊卡",
+  "ushield_additional_services_sim_desc": "\uD83D\uDED2扩展服务\n\n\n\uD83C\uDDED\uD83C\uDDF0香港鸭聊卡\n➖➖➖➖➖➖➖➖➖➖\n\uD83D\uDD25香港鸭聊卡有效期1年，可充值，18G一次性流量卡，附带一个香港号码，可免费收短信。\n\n\uD83D\uDD38单价：60 USDT / 卡\n\uD83D\uDD38邮费：到付\n\n\uD83D\uDD39激活拨打：*103*800#\n\uD83D\uDD39查询拨打：*#130#",
+  "ushield_additional_services_energy_financing": "能量理财",
+  "ushield_additional_services_energy_financing_desc": "\uD83D\uDD38能量代理模式收购价格： 44 SUN\n\uD83D\uDD38年化收益率（APY）： 15.42%\n\uD83D\uDD38质押能量每10000TRX每天收益：4.23 TRX\n\n\uD83D\uDD38带宽代理模式收购价格： 260 SUN\n\uD83D\uDD38年化收益率（APY）： 15.51%\n\uD83D\uDD38质押带宽每10000TRX每天收益：4.25 TRX\n\n\uD83D\uDD38 以上收益均为质押能量或者带宽的收益，质押TRX额外还有 3.5% APY投票收益，在钱包APP内操作即可领取额外投票收益！ \n\n\n此功能主要给：已经质押 TRX  获取能量的用户自助出售能量\n质押能量首选钱包APP： 波宝  TronLink\n质押流程：\n钱包内进入【质押功能】选择质押【能量】或者【带宽】\n\n出售流程：\n钱包点击【带宽】或者【能量】选择代理，输入收购地址，发送完成即可。",
+  "ushield_additional_services_visa": "匿名信用卡",
+  "ushield_additional_services_visa_desc": "\uD83D\uDCB3匿名信用卡\n➖➖➖➖➖➖➖➖➖➖\n\uD83D\uDD25适用各种跨境场景，轻松付全球！支持多币种交易、开卡即用、实时到账、极速消费、支持AVS验证。\n\n\uD83D\uDD38充值手续费：3%\n\uD83D\uDD38开卡手续费：6 USD\n\n\uD83D\uDCCC适用平台：Alipay、Facebook、Google、Amazon、GoDaddy、Open AI、Twitter、Shopify、Starlink、Wechat、Alibaba、AliExpress等。\n\n⚠\uFE0F该卡禁止恶意拒付，如造成多次交易拒付或支付失败，将会触发风控进行处罚或销卡处理，请养成良好的支付习惯，如订阅有其他服务，请您在订阅网站完成解绑、或取消订阅操作！",
+  "ushield_additional_services_sns": "社交账号",
+  "ushield_additional_services_sns_desc": "支持Linkedin、Facebook 、Google账号以及投流服务，帮助客户跨境贸易",
+  "ushield_additional_services_contact": "\n💁客服热线：{ushield_additional_services_contact}",
+  "ushield_additional_services_wallet": "\n👛充值钱包：<code>{ushield_additional_services_wallet}</code>",
+  "ushield_additional_services_ecs": "海外服务器",
+  "ushield_additional_services_ecs_desc": "购买匿名海外服务器ECS"
+
 }
 
