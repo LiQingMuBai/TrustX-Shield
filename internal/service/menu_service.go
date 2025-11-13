@@ -470,20 +470,22 @@ func MenuNavigateHome(_lang string, cache cache.Cache, db *gorm.DB, message *tgb
 		user.TronAmount = "0"
 	}
 
-	str := ""
-	if len(user.BackupChatID) > 0 {
-		//id, _ := strconv.ParseInt(user.BackupChatID, 10, 64)
-		//backup_user, _ := userRepo.GetByUserID(id)
-		str = "🔗 " + global.Translations[_lang]["secondary_contact"] + "：  " + "@" + user.BackupChatID
-	} else {
-		str = global.Translations[_lang]["secondary_contact_none"]
-	}
-
+	//str := ""
+	//if len(user.BackupChatID) > 0 {
+	//	//id, _ := strconv.ParseInt(user.BackupChatID, 10, 64)
+	//	//backup_user, _ := userRepo.GetByUserID(id)
+	//	str = "🔗 " + global.Translations[_lang]["secondary_contact"] + "：  " + "@" + user.BackupChatID
+	//} else {
+	//	str = global.Translations[_lang]["secondary_contact_none"]
+	//}
 	msg := tgbotapi.NewMessage(message.Chat.ID, "🆔 "+global.Translations[_lang]["user_id"]+"："+user.Associates+"\n\n👤 "+global.Translations[_lang]["username"]+"：@"+user.Username+"\n\n"+
-		str+"\n\n💰"+
-		global.Translations[_lang]["balance"]+"：\n\n"+
+		//str+"\n\n💰"+
+		global.Translations[_lang]["balance"]+"：\n"+
 		"- TRX："+user.TronAmount+"\n"+
-		"- USDT："+user.Amount)
+		"- USDT："+user.Amount+"\n\n"+
+		global.Translations[_lang]["promotion_link"]+":"+"<code>"+"https://t.me/TrustXService_bot?start="+strconv.FormatInt(message.Chat.ID, 10)+"</code>",
+	)
+
 	msg.ReplyMarkup = inlineKeyboard
 	msg.ParseMode = "HTML"
 	bot.Send(msg)
