@@ -74,7 +74,7 @@ func (c *TrxfeeClient) Order(_outTradeNo, _receiveAddress string, _energyAmount 
 	time.Sleep(1 * time.Second)
 	timestamp := strconv.FormatInt(time.Now().Unix(), 10)
 
-	_energyAmount = 65020
+	_energyAmount = 65010
 
 	data := Data{
 		EnergyAmount:   _energyAmount,
